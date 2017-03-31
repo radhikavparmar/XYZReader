@@ -22,6 +22,7 @@
     <color name="theme_accent">#e64a19</color>
     <color name="ltgray">#ffe0e0e0</color>
     <color name="ripple">#ef9a9a</color>
+    <color name="black">#000000</color>
     <!--#e64a19 pd-->
     <!--#EE3B1A-->
 </resources>
