@@ -68,7 +68,6 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:paddingBottom="@dimen/detail_metabar_title_bottom_padding"
-
                         android:textColor="#fff"
                         android:textStyle="bold"
                         android:textSize="@dimen/detail_title_text_size"
@@ -100,17 +99,34 @@
         </LinearLayout>
     </com.example.xyzreader.ui.ObservableScrollView>
 
-    <ImageButton android:id="@+id/share_fab"
-        android:stateListAnimator="@animator/fab_state_list_anim"
-        android:background="@drawable/add_fab_background"
-        android:layout_gravity="bottom|end"
+    <!--<ImageButton android:id="@+id/share_fabv"-->
+        <!--android:stateListAnimator="@animator/fab_state_list_anim"-->
+        <!--android:background="@drawable/add_fab_background"-->
+        <!--android:layout_gravity="bottom|end"-->
+        <!--android:layout_marginRight="@dimen/fab_margin"-->
+        <!--android:layout_marginBottom="@dimen/fab_margin"-->
+        <!--android:layout_width="56dp"-->
+        <!--android:layout_height="56dp"-->
+        <!--android:src="@drawable/ic_share_black_24dp"-->
+        <!--android:tint="@color/theme_primary_dark"-->
+        <!--android:elevation="@dimen/fab_elevation"-->
+        <!--android:contentDescription="@string/action_share"-->
+        <!--/>-->
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/share_fab"
+        app:rippleColor="@color/ripple"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginRight="@dimen/fab_margin"
         android:layout_marginBottom="@dimen/fab_margin"
-        android:layout_width="56dp"
-        android:layout_height="56dp"
         android:src="@drawable/ic_share_black_24dp"
         android:tint="@color/theme_primary_dark"
+        android:backgroundTint="#ffffff"
         android:elevation="@dimen/fab_elevation"
+        app:borderWidth="2dp"
+        app:fabSize="normal"
+        app:pressedTranslationZ="@dimen/fab_press_translation_z"
+        android:layout_gravity="bottom|end"
         android:contentDescription="@string/action_share"
         />
 
