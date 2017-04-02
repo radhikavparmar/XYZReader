@@ -288,8 +288,7 @@ public class ArticleDetailFragment extends Fragment implements
         if (mPhotoContainerView == null || mPhotoView.getHeight() == 0) {
             return Integer.MAX_VALUE;
         }
-
-        // account for parallax
+//parallax
         return mIsCard
                 ? (int) mPhotoContainerView.getTranslationY() + mPhotoView.getHeight() - mScrollY
                 : mPhotoView.getHeight() - mScrollY;
