@@ -26,10 +26,10 @@ App uses fonts that are either the Android defaults, are complementary, and aren
 App conforms to common standards found in the Android Nanodegree General Project Guidelines.
 
 
-Markup : ![picture alt](https://cloud.githubusercontent.com/assets/3963797/24752638/74c9cf70-1aec-11e7-9c50-6feb4df1d879.png "Screenshot 1")
+![picture alt](https://cloud.githubusercontent.com/assets/3963797/24752638/74c9cf70-1aec-11e7-9c50-6feb4df1d879.png "Screenshot 1")
 
 
-Markup : ![picture alt](https://cloud.githubusercontent.com/assets/3963797/24752639/76699f68-1aec-11e7-897f-b008ee656052.png "Screenshot 2")
+![picture alt](https://cloud.githubusercontent.com/assets/3963797/24752639/76699f68-1aec-11e7-897f-b008ee656052.png "Screenshot 2")
 
 
-Markup : ![picture alt](https://cloud.githubusercontent.com/assets/3963797/24752641/7790ca74-1aec-11e7-9e03-ad6bd7a1b132.png "Screenshot 3")
+![picture alt](https://cloud.githubusercontent.com/assets/3963797/24752641/7790ca74-1aec-11e7-9e03-ad6bd7a1b132.png "Screenshot 3")
